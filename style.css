@@ -1,0 +1,70 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(181, 240, 225);
+}
+
+.main-section {
+    display: flex;
+    margin: 10%;
+    padding: 2%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: -5px 5px 15px gray;
+}
+
+.left-div {
+    border-right: 2px solid black;
+    border-color: gray;
+    padding: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.left-div p {
+    color: gray;
+}
+
+.right-div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-left: 2px solid black;
+    border-color: gray;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.right-div h2 {
+    color: darkblue;
+}
+
+.contact-div {
+    border: 2px solid black;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    color: darkblue;
+}
+
+.inputbox {
+    background-color: rgb(217, 217, 217);
+    margin-right: 10%;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+}
